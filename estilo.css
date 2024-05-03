@@ -1,0 +1,73 @@
+div {
+    color: white;
+    background-color: #8a0638;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+
+img {
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+a:hover {
+    color: blue;
+}
+
+p:hover {
+    color: red;
+}
+
+th {
+    background-color: bisque;
+    color: chocolate;
+    border: 2px solid black;
+    font-size: 100px;
+}
+
+td {
+    color: bisque;
+    background-color: red;
+    font-size: 50px;
+}
+
+th:hover {
+    background-color: blue;
+    color: bisque;
+}
+
+td:hover {
+    color: black;
+}
+
+img:hover {
+    filter: sepia();
+    height: 600px;
+    width: 600px;
+}
