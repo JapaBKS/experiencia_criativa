@@ -1,10 +1,47 @@
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
 h3:hover {
     font-size: 25px;
     text-decoration: underline;
 }
 
-.logo {
-    img:hover{
-        height: 500px;
-    }
+body {
+    background-color: rgb(255, 255, 255);
+    color: #666;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2;
+    background-repeat: repeat-x;
+    background-size: 8%;
+}
+
+.galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.galeria:hover {
+    filter: opacity(0.7);
+}
+
+.titulo_galeria {
+    font-size: 40px;
+    max-width: 300px;
+    background-color: rgb(230, 230, 230);
+}
+
+ul {
+    list-style-type: none;
+}
+
+tr {
+    text-align: center;
 }
