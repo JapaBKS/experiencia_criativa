@@ -13,57 +13,74 @@ h3:hover {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    color: #666;
     font-family: sans-serif;
-    text-align: justify;
     line-height: 2;
-    background-repeat: repeat-x;
-    background-size: 30%;
 }
 
-.galeria {
-    width: 300px;
-    height: 300px;
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.galeria:hover {
-    filter: opacity(0.7);
+nav img {
+    width: 200px;
 }
 
-.titulo_galeria {
-    font-size: 40px;
-    max-width: 300px;
-    background-color: rgb(230, 230, 230);
+nav li {
+    padding-right: 80px;
 }
 
 ul {
     list-style-type: none;
 }
 
-tr {
+.receitas {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.receitas img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.galeria {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.galeria td {
+    font-size: 40px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 300px;
+}
+
+.galeria img:hover {
+    filter: opacity(0.7);
+}
+
+.center_logo {
     text-align: center;
+    margin-top: 40px;
 }
 
-.center {
+.fundo_inicial {
+    background-color: #3c3c3c;
+}
+
+footer {
+    background-color: #3c3c3c;
+    color: white;
     text-align: center;
-    margin-top: 150px;
+    width: 100%;
 }
 
-header {
-    width: 96%;
-    height: 60px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center; 
-    height: 80%; 
-    justify-content: center;
-}
-
-nav li {
-    padding: 0 50px; 
-
+* {
+    margin: 0;
 }
