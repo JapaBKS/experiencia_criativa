@@ -1,5 +1,6 @@
 h1 {
     font-size: 30px;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,6 +16,8 @@ h3:hover {
 body {
     font-family: sans-serif;
     line-height: 2;
+    font-size: 17px;
+    color: #666;
 }
 
 nav ul {
@@ -36,6 +39,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color: black;
+}
+
 .receitas {
     text-align: justify;
     width: 50%;
@@ -45,6 +52,10 @@ ul {
 .receitas img {
     width: 200px;
     border-radius: 50%;
+}
+
+.galeria_titulo {
+    text-align: center;
 }
 
 .galeria {
