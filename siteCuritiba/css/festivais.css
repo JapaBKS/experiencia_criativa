@@ -1,0 +1,106 @@
+h1 {
+    font-size: 30px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: 17px;
+    color: #666;
+}
+
+.navegacao nav {
+    background-color: #3c3c3c;
+}
+
+.navegacao nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.navegacao nav img {
+    width: 200px;
+}
+
+.navegacao nav li {
+    padding-right: 80px;
+}
+
+.navegacao ul {
+    list-style-type: none;
+}
+
+.receitas {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.receitas img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.receitas img:hover {
+    filter: opacity(1.0);
+}
+
+.galeria_titulo {
+    text-align: center;
+}
+
+.galeria {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.galeria td {
+    font-size: 40px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 300px;
+}
+
+.galeria img:hover {
+    filter: opacity(0.7);
+}
+
+.center_logo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.center_logo img:hover {
+    filter: opacity(1.0);
+}
+
+.fundo_inicial {
+    background-color: #3c3c3c;
+}
+
+footer {
+    background-color: #3c3c3c;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+}
