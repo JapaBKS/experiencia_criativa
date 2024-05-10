@@ -29,24 +29,19 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 0px;
+}
+
+.navegacao nav li {
+    margin: 0px auto;
 }
 
 .navegacao nav img {
     width: 200px;
 }
 
-.navegacao nav li {
-    padding-right: 80px;
-}
-
-.navegacao ul {
-    list-style-type: none;
-}
-
 .receitas {
     text-align: justify;
-    width: 50%;
+    width: 60%; 
     margin: 0 auto;
 }
 
