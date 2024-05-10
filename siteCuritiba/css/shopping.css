@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+p,
+h1 {
+    margin: 0;
+}
+
+#image-track {
+    display: flex;
+    gap: 3vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    z-index: 100;
+}
+#image-track.clicked {
+    left: 50%;
+    top: 80%;
+}
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 50% 50%;
+    user-select: none;
+}
+#image-track > .image.clicked {
+    filter: brightness(.5);
+    width: 20vmin;
+    height: 28vmin;
+    transition: 1s;
+}
+#image-track > .image.clicked[data-active="true"] {
+    filter: brightness(1);
+}
+
+#backgroundImage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background-color: transparent;
+    opacity: 0;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(.4) sepia(.3) brightness(.8);
+}
+.gradient {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    background-image: linear-gradient(to top, black 20%, transparent);
+    z-index: 98;
+}
+#writtenContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    justify-content: center;
+    opacity: 0;
+    z-index: 99;
+    box-sizing: border-box;
+    transition: 1.2s ease-out;
+    padding: 5%;
+    color: white;
+    font-family: sans-serif;
+}
+#writtenContent.clicked {
+    opacity: 1;
+    transform: translateY(-20%);
+}

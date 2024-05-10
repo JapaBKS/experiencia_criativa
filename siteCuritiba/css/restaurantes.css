@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    color:#666;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/imagens/restaurantes/bg.png);
+    color: #fff;
+    padding: 35px 25px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main {
+    padding: 25px 0px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nav {
+    padding: 10px 0;
+    background-color: white;
+    margin-left: 20px!important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-ul {
+    list-style-type: none;
+    width: max-content!important;
+    margin: 0;
+
+    padding: 0;
+    text-align: left;
+}
+
+.nav-li {
+    display: inline-block;
+}
+
+.nav-a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #666;
+    transition: all 0.3s ease;
+    background-color: #cfcfcf;
+    border-radius: 8px;
+}
+.nav-a:hover {
+    background-color:rgb(122 163 161);
+    color: #ffff;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+    cursor:pointer;
+}
+
+header > div {
+    display: flex;
+}
+
+button > img {
+    max-width: 30px;
+    margin-top: 10px;
+}
+
+div > img {
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+a > img {
+    max-width: 40px;
+    top: 10px;
+    right: 16px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.descrição {
+    width: 350px;
+    text-align: justify;
+}
+
+.img-container {
+    position: relative;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-restaurante {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.align-content {
+    align-content: center;
+}
+
+.gap {
+    gap: 12px;
+}
+
+.box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    height: 12px; 
+    border: none;
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    box-shadow: lightblue; 
+}
+
+.search-container {
+    display: flex;
+    align-items:center;
+}
+
+.search-container input[type="search"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background: rgb(148, 145, 145) ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: rgba(0, 81, 255, 0.664);
+}
+
+.botao-voltar {
+  border: none; 
+  padding: 5px 5px; 
+  text-align: center; 
+  text-decoration:solid white;
+  display: inline-block;
+  cursor: pointer; 
+  border-radius: 12px;
+  height: 30px; 
+}
+
+[contenteditable] {
+    cursor: pointer;
+}
+
+.card-add {
+    justify-content: center;
+}
+
+
+#add-btn {
+    max-width: 60px!important;
+    margin: 0px;
+    padding-bottom: 10px;
+}
