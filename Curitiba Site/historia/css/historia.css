@@ -1,0 +1,195 @@
+body{ /**Definindo que tudo que está dentro de body usará essa fonte**/
+    font-family:sans-serif;
+    color: #666;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+    padding: 0px;
+}
+
+nav {
+    background-color:rgb(122 163 161);
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+nav ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'sans-serif';
+    line-height: 2;
+    color: #666;
+    text-align: justify;
+}
+
+
+header h1{ /**Colocando o título: História de Curitiba na posição.**/
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    font-style: verdana;
+    font-size: 30px;
+    color: white;
+}
+
+header{ /**Fazendo o bloco verde.**/
+    position: 10px, left;
+    background-color: rgb(122 163 161);
+    height: 100px;
+    width: 960px;
+}
+
+header .capivara-com-faca{ /**Posicionando a capivara.**/
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left:1240px;
+}
+
+h4{ /**Definindo as definições para todos os h4.**/
+    font-style: 'sans-serif's;
+}
+
+#Intro .h4{ /**Definindo o tópico introdução.**/
+    position:static;
+    font-size: 17px;
+    background-color: lightgray;
+    border-radius: 25px;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    line-height:47px;
+}
+
+#indice a{ /**Arruma a lista de âncora.**/
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+#indice a:hover { /**Adiciona efeito no índice**/
+    background-color: gray;
+}
+
+#HistoriaNome h4{
+    position:static;
+    font-size: 17px;
+    background-color: lightgray;
+    border-radius: 25px;
+    height: 50px;
+    width: 190px;
+    text-align: center;
+    line-height:47px;
+}
+
+#Bandeira h4{
+    position:static;
+    font-size: 17px;
+    background-color: lightgray;
+    border-radius: 25px;
+    height: 50px;
+    width: 210px;
+    text-align: center;
+    line-height:47px;
+}
+
+#Escola_Uni h4{
+    position:static;
+    font-size: 17px;
+    background-color: lightgray;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    line-height:47px;
+}
+
+#Prefeito h4{
+    position:static;
+    font-size: 17px;
+    background-color: lightgray;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height:47px;
+}
+
+
+img[src="../imagens/historia/placaprefeito.jpg"] {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+img[src="../imagens/historia/pinhao.jpg"] {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+img[src="../imagens/historia/bandeira.jpg"] {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+img[src="../imagens/historia/ufpr.jpg"] {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+p{
+    padding-left: 15px;
+}
