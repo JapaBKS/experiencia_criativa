@@ -1,0 +1,22 @@
+.carrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel img {
+    width: 1000px;
+    filter: brightness(0.7);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.logo-container {
+    height: 100px; 
+    width: auto; 
+}
